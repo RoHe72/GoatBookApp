@@ -1,0 +1,248 @@
+.navbar {
+	background-color: #552084;
+	border-color: #552084;
+}
+
+.navbar>.navbar-brand {
+	color: #FDB827;
+	font-weight: bold;
+}
+
+.navbar>.container>div>.navbar-nav>li>a {
+	background: #552084;
+	color: #FDB827;
+	font-weight: bold;
+}
+
+.navbar>.container>div>.navbar-nav>li>a:hover {
+	background: #552084;
+	color: #FDB827;
+	font-weight: bold;
+}
+
+.navbar>.container>.navbar-header>a {
+	background: #552084;
+	color: #FDB827;
+	font-weight: bold;
+}
+
+.navbar>.container>.navbar-header>a:hover {
+	background: #552084;
+	color: #FDB827;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.open>a {
+	background: #552084 !important;
+	color: #FDB827;
+}
+
+.navbar-default .navbar-nav>.open>a:focus {
+	color: #FDB827;
+}
+
+.panel>.panel-heading>.panel-title {
+	color: #FDB827;
+	font-weight: bold;
+}
+
+
+
+.errors {
+	color: red;
+}
+
+.pagination {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.homepage-status {
+	text-align: center;
+	margin-top: 30px;
+	font-size: larger;
+}
+
+.edit-links {
+	margin-top: 10px;
+}
+
+.login-form {
+	width: 100%;
+}
+
+.login-form>div {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.login-form>div>button {
+	background: #552084;
+	color: #FDB827;
+	font-weight: bold;
+	border-color: #552084;
+}
+
+.login-error {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: red;
+	font-weight: bold;
+}
+
+.message {
+	font-size: larger;
+	margin-top:60px;	
+}
+
+.profile-about {
+	width: 100%;
+	border: 1px solid #552084;
+	padding: 50px;
+	overflow: auto;		
+}
+
+.profile-text {
+	font-size:larger;
+	color: #FDB827;
+	font-weight:bold;
+}
+
+.profile-image {
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	
+}
+
+.profile-about-edit {
+	position: absolute;
+	bottom: 0px;
+	right: 50px;
+}
+
+.input-group>button {
+	background: #552084;
+	color: #FDB827;
+	font-weight: bold;
+	border-color: #552084;
+	
+	
+}
+
+ul#interestList {
+	border: 1px solid #FDB827;
+	background-color: #552084;
+}
+
+ul.tagit > li.tagit-choice {
+	background-color: #552084;
+	color: #FDB827;
+	font-weight: bold;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #888888;
+}
+
+ul#interestList a.tagit-close > span.text-icon {
+	display: inline;
+	color: #FDB827;
+	padding: 6px;
+	font-size: 1.1em;
+}
+
+ul#interestList a.tagit-close:hover {
+	text-decoration: none;
+	
+}
+
+ul#interestList a.tagit-close:hover > span.text-icon {
+	color: #FDB827;
+	
+}
+
+div[role=status] {
+	display: none;
+	
+}
+
+#ui-id-1 {
+	display: none !important;
+}
+
+.results-details {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.results-name {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.results-interests {
+	font-size: 1.3em;
+}
+
+.person-row {
+	border: 1px solid #552084;
+	margin-bottom: 1em;
+}
+
+.person-row {
+	border: 1px solid #552084;
+	margin-bottom: 1em;
+}
+
+.chat-message {
+	border-radius: 5px;
+	color:#FDB827;
+	font-weight: bold;
+	margin: 5px;
+	padding: 5px;
+}
+
+.chat-message-sent {
+	width: 70vw;
+	background-color: #552084;
+}
+
+.chat-message-reply {
+	width: 60vw;
+	margin-left: 10vw;
+	background-color: #552084;
+}
+
+#chat-message-record {
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column-reverse;
+	padding-bottom: 10px;
+}
+
+.message-received {
+	width: 80%;
+	background-color: #552084;
+	color: #FDB827;
+	font-weight: bold;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 50px;
+	border: 1px solid #552084;
+}
+
+.message-received > a {
+	color: white;
+}
+
+.profile-name{
+	font-weight: bold;
+	color: #FDB827;
+	margin-bottom: 10px;
+	
+	
+}
+
+
+
+

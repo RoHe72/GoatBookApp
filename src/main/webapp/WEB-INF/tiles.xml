@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+
+<tiles-definitions>
+	<definition name="goatbookapp.default" template="/WEB-INF/layouts/default.jsp">
+		<put-attribute name="title" value="GoatBook" />
+		<put-attribute name="chatnotifications" value="/WEB-INF/tiles/chatview.jsp" />
+	</definition>
+
+
+	<definition name="goatbookapp.homepage" extends="goatbookapp.default">
+		<put-attribute name="content" value="/WEB-INF/tiles/home.jsp" />
+	</definition>
+	
+	<definition name="goatbookapp.about" extends="goatbookapp.default">
+		<put-attribute name="content" value="/WEB-INF/tiles/about.jsp" />
+	</definition>
+	
+	<definition name="goatbookapp.addStatus" extends="goatbookapp.default">
+		<put-attribute name="content" value="/WEB-INF/tiles/addstatus.jsp" />
+	</definition>
+	
+	<definition name="goatbookapp.viewStatus" extends="goatbookapp.default">
+		<put-attribute name="content" value="/WEB-INF/tiles/viewstatus.jsp" />
+	</definition>
+	
+	<definition name="goatbookapp.editStatus" extends="goatbookapp.default">
+		<put-attribute name="content" value="/WEB-INF/tiles/editstatus.jsp" />
+	</definition>
+	
+	<definition name="goatbookapp.login" extends="goatbookapp.default">
+		<put-attribute name="content" value="/WEB-INF/tiles/login.jsp" />
+	</definition>
+	
+	<definition name="goatbookapp.register" extends="goatbookapp.default">
+		<put-attribute name="content" value="/WEB-INF/tiles/register.jsp" />
+	</definition>
+	
+	<definition name="goatbookapp.verifyemail" extends="goatbookapp.default">
+		<put-attribute name="content" value="/WEB-INF/tiles/verifyemail.jsp" />
+	</definition>
+	
+	<definition name="goatbookapp.message" extends="goatbookapp.default">
+		<put-attribute name="content" value="/WEB-INF/tiles/message.jsp" />
+	</definition>
+	
+	<definition name="goatbookapp.exception" extends="goatbookapp.default">
+		<put-attribute name="content" value="/WEB-INF/tiles/exception.jsp" />
+	</definition>
+	
+	<definition name="goatbookapp.profile" extends="goatbookapp.default">
+		<put-attribute name="content" value="/WEB-INF/tiles/profile.jsp" />
+	</definition>
+	
+	<definition name="goatbookapp.editProfileAbout" extends="goatbookapp.default">
+		<put-attribute name="content" value="/WEB-INF/tiles/editprofileabout.jsp" />
+	</definition>
+	
+	<definition name="goatbookapp.search" extends="goatbookapp.default">
+		<put-attribute name="content" value="/WEB-INF/tiles/results.jsp" />
+	</definition>
+	
+	<definition name="goatbookapp.checkmessages" extends="goatbookapp.default">
+		<put-attribute name="content" value="/WEB-INF/tiles/checkmessages.jsp" />
+	</definition>
+	
+	<definition name="chat.chatview" extends="goatbookapp.default">
+		<put-attribute name="chatnotifications" value="/WEB-INF/tiles/chatview.jsp" />
+		<put-attribute name="chatviewscript" value="/WEB-INF/tiles/chatviewscript.jsp" />
+	</definition>
+</tiles-definitions>
